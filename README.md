@@ -344,4 +344,10 @@ Hit the `**Q**` key to exit this prompt
 
 Articles and tutorials on branching and workflows in Git:
 
-https://nvie.com/posts/a-successful-git-branching-model/
+[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+
+[Learn Git Branching](https://learngitbranching.js.org/)
+
+[Git Branch | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/using-branches)
+
+[Git Workflow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows)
