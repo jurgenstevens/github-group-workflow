@@ -1,4 +1,5 @@
 # GitHub Group Workflow
+![GHGWF49-83-173](https://user-images.githubusercontent.com/48702365/193153588-0a3d8095-5dec-41f9-855d-b1690129a9cd.png)
 
 # Team Workflow
 
@@ -46,7 +47,6 @@ For today's exercise, you'll be starting from an already created project - the s
 
 ### Minion
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3af207ba-a7ae-4f2e-8c08-dcffa0d2c221/noun_fork_368567.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3af207ba-a7ae-4f2e-8c08-dcffa0d2c221/noun_fork_368567.png)
 
 1. Identify the repo (or repos) created by your commander on GitHub.
 2. In the browser, navigate to that repo and Fork it to your own account. 
@@ -80,9 +80,9 @@ For today's exercise, you'll be starting from an already created project - the s
 
 ![https://i.imgur.com/B5CZSuT.png](https://i.imgur.com/B5CZSuT.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1c2deaf-b578-44ad-84b7-c8393a1a4835/noun_Add_Branch_378498.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1c2deaf-b578-44ad-84b7-c8393a1a4835/noun_Add_Branch_378498.png)
 
-### Commander and Minion
+
+## Commander and Minion
 
 1. Frequently ensure that you have the most recently merged code on your local computer:
     - Checkout the `main` branch with:
@@ -140,7 +140,8 @@ For today's exercise, you'll be starting from an already created project - the s
         
     - An example of what steps 2-4 will look like in the terminal is shown below:
         
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4eb9d8fb-da84-46cb-9de9-ecaa76b8e4a9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4eb9d8fb-da84-46cb-9de9-ecaa76b8e4a9/Untitled.png)
+![GHGWF-Line146](https://user-images.githubusercontent.com/48702365/193153821-17cbac9e-29a9-4379-9ae3-033585bdfccc.png)
+
         
 5. In the browser, open your fork of the repo. Click on the **Pull requests** tab. From here, you should be able to click on the **Compare and pull request** button.
     
@@ -170,7 +171,9 @@ For today's exercise, you'll be starting from an already created project - the s
 6. If the request has merge conflicts, the commander may decide to test and merge the pull request locally/manually by clicking **command line instructions** and following the steps listed.
 7. After a merge, ensure your team members pull the recent changes into their local repo ASAP.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e829432-6bbb-464f-87e7-45368346d7b4/noun_Merge_368564.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e829432-6bbb-464f-87e7-45368346d7b4/noun_Merge_368564.png)
+
+![GHGWF49-83-173](https://user-images.githubusercontent.com/48702365/193153588-0a3d8095-5dec-41f9-855d-b1690129a9cd.png)
+
 
 ## Minimizing Merge Conflicts (Commander and Minion)
 
@@ -340,3 +343,5 @@ Hit the `**Q**` key to exit this prompt
 # Resources 📖
 
 Articles and tutorials on branching and workflows in Git:
+
+https://nvie.com/posts/a-successful-git-branching-model/
