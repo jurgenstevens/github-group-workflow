@@ -260,7 +260,7 @@ If everyone is always following all of the above steps there should never be con
 
 The easiest way for a commander to fix the problem themselves is to follow the 2 steps in the **command line instructions** view. 
 
-![Screen Shot 2022-07-13 at 5.06.25 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8d3d8f9-9e2c-4bd5-9933-ca0174c1aff1/Screen_Shot_2022-07-13_at_5.06.25_PM.png)
+<img width="751" alt="line263" src="https://user-images.githubusercontent.com/48702365/193159556-29459562-36af-4b86-89e3-136cad3ea925.png">l
 
 Start by ensuring your main branch up to date with the origin with:
 
@@ -280,7 +280,7 @@ git pull https://github.com/teradaian/all-the-things.git react-redux
 
 </aside>
 
-![Screenshot of the terminal after running the above commands](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/942d9933-95e1-489e-9c25-6668aaef8c5a/Screen_Shot_2022-07-13_at_5.20.42_PM.png)
+<img width="574" alt="line283" src="https://user-images.githubusercontent.com/48702365/193159634-b10ed3fd-1e11-4a3a-8346-a71d36068b39.png">
 
 Screenshot of the terminal after running the above commands
 
