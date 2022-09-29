@@ -222,14 +222,14 @@ For today's exercise, you'll be starting from an already created project - the s
     
     After you've done this look for files with an exclamation mark as shown below: these are the files that have conflicts in them. Conflicts are also listed in the command line when you ran the `git merge main` command. You can also see files with conflicts if you run the `git status` command as shown below.
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6aa5b57-a04d-452f-99e7-b524b34e9912/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6aa5b57-a04d-452f-99e7-b524b34e9912/Untitled.png)
-    
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6242e67-7a97-4ee7-aae8-ea67da5045b6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6242e67-7a97-4ee7-aae8-ea67da5045b6/Untitled.png)
-    
+   ![line225](https://user-images.githubusercontent.com/48702365/193155192-dbd96a69-79ee-4796-932a-dbdf43f09dde.png)
+
+    ![line226](https://user-images.githubusercontent.com/48702365/193155242-8882de7a-dbec-4092-be56-15b49d156e85.png)
+
     Go to these files and browse through them. You'll arrive at sections that are formatted similarly to this:
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/446e9da9-432d-4166-9351-4753d1199675/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/446e9da9-432d-4166-9351-4753d1199675/Untitled.png)
-    
+![line231](https://user-images.githubusercontent.com/48702365/193155446-240cf5ec-32ca-4fa9-a48d-208d964f7c07.png)
+
     Notice the options above line 106. Most useful to you will be: **Accept Current Change**, **Accept Incoming Change**, and **Accept Both Changes**.
     
     You're able to see the current change highlighted in green (also note the Current Change text on line 106) and the incoming change highlighted in blue (note the Incoming Change text on line 112).
@@ -238,7 +238,7 @@ For today's exercise, you'll be starting from an already created project - the s
     
     Below you can see the outcome of accepting the incoming change:
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69dcfef9-a3be-4c2c-a9c5-2db06ac6fc3b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69dcfef9-a3be-4c2c-a9c5-2db06ac6fc3b/Untitled.png)
+![line241](https://user-images.githubusercontent.com/48702365/193155492-0f5b89f0-c249-4d32-94b6-c629dfa789a9.png)
     
 2. After fixing the commits, add and commit:
     
@@ -251,7 +251,7 @@ For today's exercise, you'll be starting from an already created project - the s
 
 ## Fixing Conflicts in a Pull Request or Merge (Commander)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c6526c0-4868-4d5b-bbd6-52908125b50b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c6526c0-4868-4d5b-bbd6-52908125b50b/Untitled.png)
+![line254](https://user-images.githubusercontent.com/48702365/193156487-57e0b5f4-6d2c-4929-9ff8-90a9af2244fb.png)
 
 If everyone is always following all of the above steps there should never be conflicts that are introduced in a pull request, but it is something that will happen and shouldn't be stressed about. The commander has 2 options here. 
 
@@ -286,13 +286,13 @@ Screenshot of the terminal after running the above commands
 
 After you've done this look for files with an exclamation mark as shown below: these are the files that have conflicts in them. Conflicts are also listed in the command line when you ran the `git merge main` command. You can also see files with conflicts if you run the `git status` command as shown below.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6aa5b57-a04d-452f-99e7-b524b34e9912/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6aa5b57-a04d-452f-99e7-b524b34e9912/Untitled.png)
+![line289](https://user-images.githubusercontent.com/48702365/193158740-d19bd14e-b3b6-4c30-b55e-255798656656.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6242e67-7a97-4ee7-aae8-ea67da5045b6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6242e67-7a97-4ee7-aae8-ea67da5045b6/Untitled.png)
+![line291](https://user-images.githubusercontent.com/48702365/193158757-aa034c2c-c663-4cfb-a677-8c0188c96229.png)
 
 Go to these files and browse through them. You'll arrive at sections that are formatted similarly to this:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/446e9da9-432d-4166-9351-4753d1199675/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/446e9da9-432d-4166-9351-4753d1199675/Untitled.png)
+![line295](https://user-images.githubusercontent.com/48702365/193158796-1138196e-30c9-46fd-b0a6-9e613712b3bd.png)
 
 Notice the options above line 106. Most useful to you will be: **Accept Current Change**, **Accept Incoming Change**, and **Accept Both Changes**.
 
@@ -302,7 +302,7 @@ When deciding what code to keep remember to ***consult with your teammates!***
 
 Below you can see the outcome of accepting the incoming change:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69dcfef9-a3be-4c2c-a9c5-2db06ac6fc3b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69dcfef9-a3be-4c2c-a9c5-2db06ac6fc3b/Untitled.png)
+![line305](https://user-images.githubusercontent.com/48702365/193158850-5953ff40-5f32-447b-a196-586153c6d2c5.png)
 
 After you've done this make a commit and use the commands in step 2:
 
@@ -322,9 +322,9 @@ git push origin main
 
 </aside>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed2dbde8-9ee5-442a-b753-afbbbdb163a4/Untitled.png)
+![line325](https://user-images.githubusercontent.com/48702365/193158890-f25545e5-eb1c-4cde-bf3c-abc4cf53efd2.png)
 
-![Screenshot of the terminal after running the above commands](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/436b8158-7e0b-49c1-ae61-5d9f6bb8f9d1/Screen_Shot_2022-07-13_at_5.20.18_PM.png)
+<img width="618" alt="line327" src="https://user-images.githubusercontent.com/48702365/193158917-c873888e-13f9-4fc4-8d30-8f630482e4c9.png">
 
 Screenshot of the terminal after running the above commands
 
