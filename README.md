@@ -1,7 +1,5 @@
 # GitHub Group Workflow
 
-# Contents
-
 # Team Workflow
 
 To help illustrate collaborating on a project using Git/GitHub, consider the following two roles you can fulfill: **Git Commander (Manager)** and **Git Minion (Programmer)**.
@@ -14,88 +12,28 @@ Start by reviewing this article from GitHub on the GitHub Flow. It will guide yo
 
 For today's exercise, you'll be starting from an already created project - the steps you will follow will be different when you are building a project from scratch. Both methods are listed below for your convenience.
 
-# Setup (*One-time Only at the Start of a Project*)
-
-## Today's Exercise Only
-
-### Git Commander
-
-1. Clone the repo you'll be using for today's activity:
-    
-    ```bash
-    git clone https://github.com/SEI-Remote/all-the-things.git
-    ```
-    
-2. Move into the `all-the-things` directory:
-    
-    ```bash
-    cd all-the-things
-    ```
-    
-3. Remove the existing `**.git**` file to destroy the existing git info:
-    
-    <aside>
-    🧠 If you don't do this, you'll have previous commit history from the person that created the repository!!!
-    
-    </aside>
-    
-    ```bash
-    rm -rf .git
-    ```
-    
-4. And initialize a new git repository:
-    
-    ```bash
-    git init
-    ```
-    
-5. In the browser, create a remote version of this repo on your personal GitHub.
-6. Github will provide you with a command similar to the example below that you can use to connect your local repo with the new remote repository.
-    
-    ```bash
-    git remote add origin https://github.com/<your-gh-username>/all-the-things.git
-    ```
-    
-7. Ensure you have a remote named `origin`:
-    
-    ```bash
-    git remote -v
-    ```
-    
-8. Install your npm packages:
-    
-    ```bash
-    npm i
-    ```
-    
-9. And finally, add, commit, and push to GitHub.
-    
-    ```bash
-    git add .
-    git commit -m "initial commit"
-    git push origin main
-    ```
-    
-
 ## For Your Own Projects (decoupled app)
 
-### Git Commander
+###  🚨 For Git Commander ONLY  🚨
 
-1. Follow the instructions in the project template repo found here:
+1. Create your front end repo on Github and your React app with the following command if you haven't already done so:
+    ```bash
+    npx create-react-app [your project name]
+    ```
     
-    [https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-front-end](https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-front-end)
-    
-2. Ensure you have a remote named `origin`**:**
+2. After connecting your app to your Github front end repo, ensure you have a remote named `origin`**:**
     
     ```bash
     git remote -v
     ```
     
-3. THEN, follow the instructions in the project template repo found here:
+3. THEN, create your backend repo on Github and your Express backend with the following command if you haven't already done so:
+    ```bash
+    npm init -y
+    npm i express dotenv mongoose
+    ```
     
-    [https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-back-end](https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-back-end)
-    
-4. Ensure you have a remote named `origin` ****in the new project:
+4. Ensure you have a remote named `origin` **** after connecting your backend to your Github back end repo:
     
     ```bash
     git remote -v
@@ -154,7 +92,7 @@ For today's exercise, you'll be starting from an already created project - the s
         ```
         
         <aside>
-        ⚠️ Only pull when you are on `main`
+        🚨⚠️ Only pull when you are on `main` ⚠️🚨
         
         </aside>
         
@@ -165,7 +103,7 @@ For today's exercise, you'll be starting from an already created project - the s
         ```
         
         <aside>
-        ⚠️ **Commanders** will always use `origin` in place of `upstream`.
+        🚨⚠️ **Commanders** will always use `origin` in place of `upstream`. ⚠️🚨
         
         </aside>
         
