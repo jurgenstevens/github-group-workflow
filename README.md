@@ -11,7 +11,7 @@ Start by reviewing this article from GitHub on the GitHub Flow. It will guide yo
 
 [GitHub flow - GitHub Docs](https://docs.github.com/en/get-started/quickstart/github-flow)
 
-For today's exercise, you'll be starting from an already created project - the steps you will follow will be different when you are building a project from scratch. Both methods are listed below for your convenience.
+For today's exercise, we'll be starting a project from scratch. Both methods are listed below for your convenience.
 
 ## For Your Own Projects (decoupled app)
 
@@ -174,6 +174,8 @@ For today's exercise, you'll be starting from an already created project - the s
 
 ![GHGWF49-83-173](https://user-images.githubusercontent.com/48702365/193153588-0a3d8095-5dec-41f9-855d-b1690129a9cd.png)
 
+# THE FOLLOWING ARE STEPS INCLUDED FOR YOU ALL TO READ ON YOUR OWN TO DEBUG ANY ISSUES YOU RUN INTO
+# The following are solutions to any issues you may run into with detailes steps including screenshots of what these issues and their solutions will look like. 
 
 ## Minimizing Merge Conflicts (Commander and Minion)
 
